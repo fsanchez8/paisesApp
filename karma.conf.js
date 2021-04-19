@@ -22,7 +22,7 @@ module.exports = function (config) {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
     jasmineHtmlReporter: {
-      suppressAll: true // removes the duplicated traces
+      suppressAll: true // removes the duplicated traces  9876
     },
     coverageReporter: {
       dir: require('path').join(__dirname, './coverage/paisesApp'),
@@ -33,7 +33,7 @@ module.exports = function (config) {
       ]
     },
     reporters: ['progress', 'kjhtml'],
-    port: 9876,
+    port: 8080,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
